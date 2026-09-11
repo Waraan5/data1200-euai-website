@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #111111;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+/* NAVIGATION */
+
+nav {
+    background: #ffffff;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 140px;
+    width: auto;
+
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111111;
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #f0b400;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+    margin-top: 35px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+
+    padding: 14px 24px;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    margin: 10px;
+
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #f0b400;
+    color: black;
+}
+
+.btn-secondary {
+    background: #c8002f;
+    color: white;
+}
+
+/* CARDS */
+
+.cards {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 25px;
+
+    padding: 40px 20px;
+}
+
+.card {
+    background: #1c1c1c;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    border: 1px solid #2a2a2a;
+}
+
+.card h2 {
+    color: #f0b400;
+    margin-bottom: 15px;
+}
+
+/* CONTENT */
+
+.content {
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    padding: 35px;
+
+    background: #1c1c1c;
+
+    border-radius: 12px;
+
+    border: 1px solid #2a2a2a;
+}
+
+.content h2 {
+    color: #f0b400;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.content ul {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    padding: 40px;
+
+    color: #999999;
+}
