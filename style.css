@@ -5,9 +5,17 @@
 }
 
 body {
-    font-family: Segoe UI, Arial, sans-serif;
-    background: #111111;
-    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: linear-gradient(
+        180deg,
+        #00133d 0%,
+        #001a54 40%,
+        #000f33 100%
+    );
+
+    color: white;
+
     line-height: 1.7;
 }
 
@@ -45,7 +53,7 @@ nav {
 /* HERO */
 
 .hero {
-    min-height: 70vh;
+    min-height: 80vh;
 
     display: flex;
     justify-content: center;
@@ -53,17 +61,36 @@ nav {
 
     text-align: center;
 
-    padding: 60px 20px;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.60)
+        ),
+        url("images/Bakgrunn.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 120px 20px;
 }
 
 .hero-content {
-    max-width: 900px;
+    background: rgba(0, 0, 0, 0.25);
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(4px);
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #f0b400;
     margin-bottom: 20px;
+
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 
 .subtitle {
@@ -123,13 +150,19 @@ nav {
 }
 
 .card {
-    background: #1c1c1c;
+    background: rgba(17, 37, 82, 0.85);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
-    border-radius: 12px;
+    border-radius: 20px;
 
-    border: 1px solid #2a2a2a;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+    color: white;
 }
 
 .card h2 {
@@ -140,17 +173,23 @@ nav {
 /* CONTENT */
 
 .content {
-    max-width: 1100px;
+    max-width: 1000px;
 
     margin: 30px auto;
 
     padding: 35px;
 
-    background: #1c1c1c;
+    background: rgba(17, 37, 82, 0.85);
 
-    border-radius: 12px;
+    backdrop-filter: blur(12px);
 
-    border: 1px solid #2a2a2a;
+    border-radius: 20px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+
+    color: white;
 }
 
 .content h2 {
