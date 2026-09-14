@@ -210,10 +210,15 @@ nav {
 footer {
     text-align: center;
 
-    padding: 40px;
+    color: rgba(255,255,255,0.5);
 
-    color: #999999;
+    font-size: 0.8rem;
+
+    padding: 30px 20px;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
 }
+
 @media (max-width: 768px) {
 
     .hero h1 {
@@ -240,8 +245,8 @@ footer {
 
     .hero-buttons a {
         display: block;
-        margin: 10px auto;
-        width: 250px;
+        margin: 5px auto;
+        width: 150px;
     }
 
 }
