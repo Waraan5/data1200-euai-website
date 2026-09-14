@@ -63,8 +63,8 @@ nav {
 
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.60)
+            rgba(0,0,0,0.25),
+            rgba(8,32,80,0.9)
         ),
         url("images/Bakgrunn.png");
 
@@ -72,7 +72,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 
-    padding: 120px 20px;
+    padding: 80px 20px;
 }
 
 .hero-content {
@@ -86,7 +86,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: 4.5rem;
+    font-size: 3.4rem;
     color: #f0b400;
     margin-bottom: 20px;
 
@@ -94,7 +94,7 @@ nav {
 }
 
 .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #e0e0e0;
     margin-bottom: 20px;
 }
@@ -213,4 +213,35 @@ footer {
     padding: 40px;
 
     color: #999999;
+}
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 15px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero-buttons a {
+        display: block;
+        margin: 10px auto;
+        width: 250px;
+    }
+
 }
