@@ -1,3 +1,3 @@
 # data1200-euai-website
-My first website for DATA1200 - EU AI Representation Services AS
+My first website for DATA1200 - EU AI Representation Services AS.
 I have chosen to dedicate a significant amount of my time to building my own website (euai.no), rather than just making minimal changes to the template file. My goal is to use this website as a learning project throughout the semester to gain hands-on experience with HTML, CSS, Git, responsive design, and universal design.I find that I learn significantly more by building and developing a real website from scratch than by making minor adjustments to an existing file. I will, of course, ensure that I meet all the learning outcomes and course requirements along the way.
