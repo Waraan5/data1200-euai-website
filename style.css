@@ -219,6 +219,23 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.08);
 }
 
+.language-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    margin-left: 25px;
+}
+
+.language-switch a {
+    margin-left: 0;
+}
+
+.separator {
+    color: #f0b400;
+}
+
+
 @media (max-width: 768px) {
 
     .hero h1 {
