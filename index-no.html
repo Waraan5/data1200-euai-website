@@ -180,20 +180,19 @@
 const container =
 document.getElementById("particles");
 
-for (let i = 0; i < 40; i++) {
+for (let i = 0; i < 23; i++){
 
     const particle =
     document.createElement("div");
 
     particle.classList.add("particle");
-
     particle.innerHTML = "★";
 
     particle.style.left =
-        Math.random() * 100 + "%";
+        (14 + Math.random() * 68) + "%";
 
     particle.style.top =
-        Math.random() * 100 + "%";
+        (10 + Math.random() * 50) + "%";
 
     particle.style.animationDuration =
         (6 + Math.random() * 10) + "s";
@@ -203,6 +202,8 @@ for (let i = 0; i < 40; i++) {
 
     container.appendChild(particle);
 }
+
+</script>
 
 </script>
 
