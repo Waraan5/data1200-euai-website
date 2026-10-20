@@ -159,18 +159,26 @@ nav {
 /* CARDS */
 
 .cards {
+
     max-width: 1200px;
+
     margin: auto;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 40px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
 
     gap: 25px;
-
-    padding: 40px 20px;
 }
 
 .card {
+
+    width: 260px;
+
     background: rgba(17, 37, 82, 0.85);
 
     backdrop-filter: blur(12px);
@@ -325,5 +333,71 @@ footer {
 
         opacity: 0.1;
     }
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.card-link:hover .card {
 
+    transform: translateY(-8px);
+
+    border-color: #f0b400;
+
+    box-shadow:
+        0 12px 40px rgba(240,180,0,0.20);
+
+    transition: all 0.3s ease;
+}
+.read-more {
+
+    color: #f0b400;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+
+    letter-spacing: 0.5px;
+}
+.content-center {
+    text-align: center;
+}
+.resources-hero {
+
+    min-height: 30vh;
+
+    padding: 40px 20px;
+
+    background-image: none;
+
+    background:
+        linear-gradient(
+            180deg,
+            #00133d 0%,
+            #001a54 40%,
+            #000f33 100%
+        );
+}
+
+.resources-hero .hero-content {
+
+    padding: 20px 35px;
+}
+
+.resources-hero h1 {
+
+    font-size: 2.5rem;
+}
+.resources-intro {
+
+    max-width: 800px;
+
+    padding: 25px;
+
+    margin: 20px auto;
+}
+.content-center h2,
+.content-center p {
+    text-align: center;
 }
