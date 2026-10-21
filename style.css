@@ -443,3 +443,22 @@ form .btn-primary {
 
     cursor: pointer;
 }
+form {
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    width: 100%;
+}
+
+form input,
+form textarea {
+
+    width: 100% !important;
+}
+
+form button {
+
+    width: 100%;
+}
