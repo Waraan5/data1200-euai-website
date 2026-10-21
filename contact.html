@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | EUAI</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        type="image/png"
+        href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="hero resources-hero">
+
+    <div id="particles"></div>
+
+    <div class="hero-content">
+
+        <h1>Contact | EUAI.no</h1>
+
+        <p class="subtitle">
+            Questions • Partnerships • AI Governance
+        </p>
+
+    </div>
+
+</header>
+
+<section class="content content-center">
+
+    <h2>Get In Touch</h2>
+
+    <p>
+        We welcome questions regarding the EU AI Act,
+        Artificial Intelligence governance, data ethics
+        and regulatory compliance.
+    </p>
+
+    <p>
+        Response times may vary, but we aim to reply
+        as quickly as possible.
+    </p>
+
+</section>
+
+<section class="content">
+
+    <h2>Send a Message</h2>
+
+    <form action="https://formsubmit.co/contact@euai.no" method="POST">
+
+        <input type="hidden"
+               name="_subject"
+               value="New message from EUAI website">
+
+        <input type="hidden"
+               name="_captcha"
+               value="true">
+
+        <input type="hidden"
+               name="_next"
+               value="https://euai.no/contact.html">
+
+        <input type="text"
+               name="name"
+               placeholder="Your Name"
+               required>
+
+        <input type="email"
+               name="email"
+               placeholder="Your Email"
+               required>
+
+        <input type="text"
+               name="company"
+               placeholder="Company (optional)">
+
+        <textarea
+            name="message"
+            rows="6"
+            placeholder="How can we help?"
+            required></textarea>
+
+        <button type="submit" class="btn-primary">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 EU AI Representation Services AS</p>
+    <p>Organisation No. 937 353 057</p>
+    <p>Knowledge • Governance • Ethics</p>
+</footer>
+
+<script>
+
+const container =
+document.getElementById("particles");
+
+for (let i = 0; i < 23; i++) {
+
+    const particle =
+    document.createElement("div");
+
+    particle.classList.add("particle");
+
+    particle.innerHTML = "★";
+
+    particle.style.fontSize =
+        (8 + Math.random() * 8) + "px";
+
+    particle.style.left =
+        (14 + Math.random() * 68) + "%";
+
+    particle.style.top =
+        (10 + Math.random() * 50) + "%";
+
+    particle.style.animationDuration =
+        (6 + Math.random() * 10) + "s";
+
+    particle.style.animationDelay =
+        Math.random() * 5 + "s";
+
+    container.appendChild(particle);
+}
+
+</script>
+
+
+</body>
+
+</html>
