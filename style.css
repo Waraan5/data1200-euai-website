@@ -478,3 +478,6 @@ blockquote {
 
     color: white;
 }
+.cards .card {
+    height: 100%;
+}
