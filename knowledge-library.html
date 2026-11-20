@@ -57,7 +57,7 @@
         <h1>EUAI Knowledge Library</h1>
 
         <p class="subtitle">
-            Podcasts • Regulatory Documents • Research Papers
+            Podcasts • Research Papers • Regulatory Documents
         </p>
 
     </div>
@@ -149,3 +149,36 @@
 
 </body>
 </html>
+<script>
+
+const container =
+document.getElementById("particles");
+
+for (let i = 0; i < 23; i++) {
+
+    const particle =
+    document.createElement("div");
+
+    particle.classList.add("particle");
+
+    particle.innerHTML = "★";
+
+    particle.style.fontSize =
+        (8 + Math.random() * 8) + "px";
+
+    particle.style.left =
+        (14 + Math.random() * 68) + "%";
+
+    particle.style.top =
+        (10 + Math.random() * 50) + "%";
+
+    particle.style.animationDuration =
+        (6 + Math.random() * 10) + "s";
+
+    particle.style.animationDelay =
+        Math.random() * 5 + "s";
+
+    container.appendChild(particle);
+}
+
+</script>
