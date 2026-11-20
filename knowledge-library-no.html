@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUAI Kunnskapsbibliotek</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        type="image/png"
+        href="images/favicon.png">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+
+            <div class="brand">
+                <a href="index.html">
+                    <img src="images/Logo.png"
+                     alt="EUAI Logo"
+                     class="nav-logo">
+                </a>
+            </div>
+
+            <div class="menu">
+
+                <a href="index-no.html">Hjem</a>
+
+                <a href="resources-no.html">Ressurser</a>
+
+                <a href="knowledge-library-no.html">
+                    Kunnskapsbibliotek 
+                </a>
+
+                <a href="contact-no.html">Kontakt</a>
+
+                <span class="language-switch">
+                     <a href="knowledge-library.html">EN</a>
+                     <span class="separator">|</span>
+                     <a href="knowledge-library-no.html">NO</a>
+                </span>
+
+            </div> 
+
+        </div>
+    </nav>
+
+<header class="hero resources-hero">
+
+    <div id="particles"></div>
+
+    <div class="hero-content">
+
+        <h1>EUAI Kunnskapsbibliotek</h1>
+
+        <p class="subtitle">
+            Podkaster • Forskningsartikler • Regelverk
+        </p>
+
+    </div>
+
+</header>
+
+<section class="content">
+
+    <h2>Policy-podkaster</h2>
+
+    <ul>
+        <li>
+            <strong>Hva er EU AI Act?</strong><br>
+            <audio controls>
+                <source src="media/What-is-the-EU-AI-Act.mp3"
+                    type="audio/mpeg">
+                </audio>
+        </li>
+
+        <li>
+            <strong>KI-risikokategorier i EU AI Act</strong><br>
+
+            <audio controls>
+                <source src="media/EU-AI-Act-Risk-Categories.mp3"
+                    type="audio/mpeg">
+            </audio>
+        </li>
+    </ul>
+
+    <ul>
+        
+    </ul>
+
+    <p></p>
+
+    <h2>Forskningspodkaster</h2>
+    
+    <ul>
+        <li>
+            <strong>Bærekraftig KI-infrastruktur</strong><br>
+            
+            <audio controls>
+                <source src="media/Sustainable-AI-Infrastructure.mp3"
+                    type="audio/mpeg">
+            </audio>
+        </li>
+    </ul>
+
+
+
+</section>
+
+<section class="content">
+
+    <h2>Regelverksdokumenter</h2>
+
+    <ul>
+        <li>
+            <a href="resources/EU-AI-Act.pdf"
+                target="_blank">
+                EU AI Act (PDF)
+            </a>
+        </li>
+    </ul>
+
+    <ul>
+        
+    </ul>
+    <p></p>
+
+    <h2>Forskningsartikler</h2>
+
+    <ul>
+        <li>
+            <a href="resources/Sustainable-AI-Paper.pdf"
+                target="_blank">
+                Bærekraftig KI-forskning (PDF)
+            </a>
+        </li>
+    </ul>
+
+</section>
+
+    <footer>
+        <p>© 2026 EU AI Representation Services AS</p>
+        <p>Organisasjonsnummer 937 353 057</p>
+        <p>Kunnskap • Styring • Etikk</p>
+    </footer>
+
+</body>
+</html>
+<script>
+
+const container =
+document.getElementById("particles");
+
+for (let i = 0; i < 23; i++) {
+
+    const particle =
+    document.createElement("div");
+
+    particle.classList.add("particle");
+
+    particle.innerHTML = "★";
+
+    particle.style.fontSize =
+        (8 + Math.random() * 8) + "px";
+
+    particle.style.left =
+        (14 + Math.random() * 68) + "%";
+
+    particle.style.top =
+        (10 + Math.random() * 50) + "%";
+
+    particle.style.animationDuration =
+        (6 + Math.random() * 10) + "s";
+
+    particle.style.animationDelay =
+        Math.random() * 5 + "s";
+
+    container.appendChild(particle);
+}
+
+</script>
