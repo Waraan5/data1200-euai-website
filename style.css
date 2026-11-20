@@ -481,3 +481,24 @@ blockquote {
 .cards .card {
     height: 100%;
 }
+
+.content h1 {
+
+    color: #f0b400;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+.content a {
+
+    color: #f0b400;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+.content a:hover {
+
+    text-decoration: underline;
+}
